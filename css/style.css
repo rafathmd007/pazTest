@@ -1,0 +1,119 @@
+body{
+	
+	margin: 0px;
+	
+}
+header{
+	
+	width: 100%;
+	background-color: #909090;
+    height: 109px;
+}
+
+nav{
+	
+	width: 900px;
+	    margin: 0px auto;
+}
+
+.upMenu li{
+	
+	float:right;
+}
+
+.menu li {
+	float:right;
+	margin-left: 2%;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+}
+.upMenu li a{
+	text-decoration: none;
+	color: white;
+}
+
+.upMenu{
+		list-style-type: none;
+		float: left;
+		margin-top: 2%;
+}
+.menu{
+		list-style-type: none;
+		    position: absolute;
+         margin-top: 75px;
+    width: 933px;
+    margin-left: -3%;
+}
+.pazLogo {
+	    margin-top: -7%;
+}
+.menuHomeLogo{
+	background-image: url("../img/menu_home.png");
+	background-position: -33px 15px;
+    width: 18px;
+    height: 15px;
+}
+.eng
+{
+	    margin-left: 20px;
+}
+.imgSearch{
+	margin-top: 1px;
+}
+
+/*center css*/
+.webCenter{
+	    width: 900px;
+    margin:0px auto;
+    margin-top: 20px;
+}
+#services{
+	
+	background-image: url("../img/פזקר_-291_354410564000.jpg");
+	height: 355px;
+    background-repeat: no-repeat;
+    width: 299px;
+
+}
+
+#refining{
+	
+background-image: url("../img/Picture-046410251500.jpg");	
+height: 355px;
+    background-repeat: no-repeat;
+    width: 293px;
+}
+#trade{
+	background-image: url("../img/1908364606615453350.JPG");	
+height: 355px;
+    background-repeat: no-repeat;
+    width: 293px;
+}
+.center{
+	
+	float: left;
+	
+    margin-right: 2px;
+}
+.inText{
+	background-image: url("../img/hp_tab_text_bg.png");
+	    direction: rtl;
+  
+    margin-top: 273px;
+    background-size: cover;
+    margin-right: 14px;
+    font-size: 13px;
+       
+}
+.inText a{
+	display: block;
+    direction: ltr;
+    color: white;
+	
+}
+.inText h3{
+	 margin: 1px;
+}
