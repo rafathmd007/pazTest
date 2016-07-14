@@ -1,25 +1,58 @@
 body{
 	
 	margin: 0px;
+	direction: rtl;
+	    padding-bottom: 38px;
+    background: #fff url("../img/header_bg.png") repeat-x center top;
+        font-family: 'Arial (Hebrew)', Arial;
 	
 }
 header{
 	
 	width: 100%;
-	background-color: #909090;
+	
     height: 109px;
 }
-
-nav{
-	
-	width: 900px;
-	    margin: 0px auto;
+.search{
+	float: left;
+	    margin: 3%;
 }
-
-.upMenu li{
+.search #input{
 	
 	float:right;
 }
+.search a{
+	    background-image: url("../img/search_button.png");
+    background-repeat: no-repeat;
+   
+    float: left;
+    height: 19px;
+    width: 19px;
+        background-position: 0 0;
+    margin-top: 1px;
+}
+.english{
+	    float: left;
+   
+    text-decoration: none;
+    color: white;
+       margin-top: 3%;
+    font-size: 0.7em;
+}
+
+#container{
+	width: 900px;
+    margin: 0 auto;
+        padding-bottom: 30px;
+}
+
+
+.logoImg{
+	    float: right;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
 
 .menu li {
 	float:right;
@@ -30,45 +63,34 @@ nav{
 	text-decoration: none;
 	color: white;
 }
-.upMenu li a{
-	text-decoration: none;
-	color: white;
-}
 
-.upMenu{
-		list-style-type: none;
-		float: left;
-		margin-top: 2%;
-}
+
+
 .menu{
 		list-style-type: none;
 		    position: absolute;
-         margin-top: 75px;
-    width: 933px;
-    margin-left: -3%;
+		    float: right;
+       width: 564px;
+    margin-right: 181px;
+    margin-top: 75px;
+    font-size: 0.7em;
 }
-.pazLogo {
-	    margin-top: -7%;
-}
+
+
 .menuHomeLogo{
 	background-image: url("../img/menu_home.png");
-	background-position: -33px 15px;
+	background-position: 18px 15px;
     width: 18px;
     height: 15px;
 }
-.eng
-{
-	    margin-left: 20px;
-}
-.imgSearch{
-	margin-top: 1px;
-}
+
+
 
 /*center css*/
 .webCenter{
-	    width: 900px;
+	    width:100%;
     margin:0px auto;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 #services{
 	
@@ -96,24 +118,129 @@ height: 355px;
 	
 	float: left;
 	
-    margin-right: 2px;
+        margin-right: 0.5%;
 }
 .inText{
 	background-image: url("../img/hp_tab_text_bg.png");
-	    direction: rtl;
+	  
   
-    margin-top: 273px;
+       margin-top: 90%;
     background-size: cover;
-    margin-right: 14px;
-    font-size: 13px;
-       
+    margin-right: 5%;
+   
+       border-bottom-right-radius: 10px;
+       color: white;
+           width: 84%;
+               font-size: 0.6em;
 }
 .inText a{
 	display: block;
+	
     direction: ltr;
     color: white;
 	
 }
 .inText h3{
-	 margin: 1px;
+     margin: 0.01%;
+}
+
+/*underCenter*/
+.clear-fix
+{
+	overflow: hidden;
+	clear:both;
+}
+.underCenter{
+	    position: relative;
+    float: right;
+      width: 27.4%;
+    padding: 0 2.8%;
+    height: 216px;
+    background: url("../img/small_cube_bg.png") ;
+       background-repeat: no-repeat;
+           padding-bottom: 5%;
+}
+ .smallCubs{
+	    margin-top: 1.8%;
+    color: #575757;
+    
+}
+.smallCubs h3{
+	font-size: 0.8em;
+    margin-right: 2%;
+}
+
+#station img{
+	float:left;
+	    width: 26%;
+}
+#station ul{
+	list-style-type: none;
+}
+#station a{
+    font-size:  0.7em;
+        color: #72716d;
+
+}
+
+#yellow a{
+    float: left;
+    margin-top: 10%;
+        color: #72716d;
+         font-size:0.7em;
+}
+
+#creditCard a{
+	
+	    margin-top: 10%;
+    display: block;
+    font-size: 0.7em;
+    color: #72716d;
+}
+/*footer*/
+
+footer{
+	    width: 100%;
+    height: 38px;
+    position: fixed;
+    bottom: 0px;
+    background: url("../img/footer_bg.png") repeat-x 0 0;
+}
+.textFooter{
+	
+	width: 900px;
+	height: 100%;
+	margin:0 auto;
+	 
+}
+.textFooter .picFoteer{
+	
+	    float: left;
+    background: url("../img/white_logo.png") no-repeat 0 0;
+    width: 135px;
+    height: 18px;
+}
+ ul .facebook{
+	
+	    bottom: 2px;
+    width: 18px;
+    height: 18px;
+    background: url("../img/fb_icon.png") no-repeat 0 0;
+}
+
+nav .footerMenu{
+	list-style-type: none;
+	color: white;
+}
+nav .footerMenu li{
+	
+	float: right;
+	 margin-right: 0.4%;
+	
+}
+nav .footerMenu li a{
+	text-decoration: none;
+	   font-size: 0.8em;
+	  
+	   color: white;
 }
